@@ -1,0 +1,4 @@
+{
+    // "python.pythonPath": "/home/zhangwd/anaconda3/envs/pytorch1.6/bin/python"
+    "python.pythonPath": "/home/zhangwd/anaconda3/envs/pytorch1.8/bin/python"
+}

@@ -1,0 +1,9 @@
+[submodule "external_lib/3D-ResNets-PyTorch"]
+	path = external_lib/3D-ResNets-PyTorch
+	url = https://github.com/kenshohara/3D-ResNets-PyTorch.git
+[submodule "external_lib/byol-pytorch"]
+	path = external_lib/byol-pytorch
+	url = https://github.com/lucidrains/byol-pytorch.git
+[submodule "external_lib/moco"]
+	path = external_lib/moco
+	url = https://github.com/facebookresearch/moco.git
