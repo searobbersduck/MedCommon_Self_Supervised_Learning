@@ -23,9 +23,12 @@ class MoCo(nn.Module):
 
         # create the encoders
         # num_classes is the output fc dimension
-        base_encoder.fc = nn.Linear(base_encoder.fc.in_features, out_features=dim, bias=True)
-        self.encoder_q = base_encoder
-        self.encoder_k = base_encoder
+        # base_encoder.fc = nn.Linear(base_encoder.fc.in_features, out_features=dim, bias=True)
+        
+        self.encoder_q = base_encoder(34, n_input_channels=1, widen_factor=1, n_classes=dim)
+        self.encoder_k = base_encoder(34, n_input_channels=1, widen_factor=1, n_classes=dim)
+        # self.encoder_q = base_encoder
+        # self.encoder_k = base_encoder
 
         if mlp:  # hack: brute-force replacement
             dim_mlp = self.encoder_q.fc.weight.shape[1]

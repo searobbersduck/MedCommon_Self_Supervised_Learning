@@ -57,7 +57,7 @@ class CommonDS(Dataset):
         image_one = torch.from_numpy(image_one).float()
         image_two = torch.from_numpy(image_two).float()
 
-        return image_one, image_two, image_file
+        return [image_one, image_two, image_file]
 
 class CardiacDS(CommonDS):
     def __init__(self, root, image_shape=[128,128,128], transforms=None):

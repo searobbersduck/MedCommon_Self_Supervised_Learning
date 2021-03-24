@@ -2,12 +2,9 @@ import os
 import sys
 
 root = os.path.join(os.path.abspath(os.path.dirname(__file__)), os.path.pardir, os.path.pardir)
-
 sys.path.append(root)
 import models.moco.builder as builder
-
 sys.path.append(os.path.join(root, 'external_lib/3D-ResNets-PyTorch/models'))
-
 from resnet import generate_model
 
 import argparse
@@ -91,14 +88,19 @@ def parse_args():
 args = parse_args()
 
 
-backbone = generate_model(18, n_input_channels=1, widen_factor=0.5)
+# backbone = generate_model(18, n_input_channels=1, widen_factor=0.5)
+backbone = generate_model
 
 model = builder.MoCo(backbone, args.moco_dim, args.moco_k, args.moco_m, args.moco_t, args.mlp)
 
-model = model.cuda()
+# model = model.cuda()
+# model = torch.nn.DataParallel(model).cuda()
+model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[0], broadcast_buffers=False)
 
-input = torch.randn(1,1,128,128,128)
+input = torch.randn(4,1,128,128,128)
 
 output = model(input.cuda(), input.cuda())
+
+print(output)
 
 print('hello world!')
