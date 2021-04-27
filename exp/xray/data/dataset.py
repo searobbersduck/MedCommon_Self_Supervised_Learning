@@ -36,7 +36,7 @@ class ImageDataset(Dataset):
             for line in f:
                 labels = []
                 fields = line.strip('\n').split(',')
-                image_path = os.path.join('/home/zhangwd/data/CheXpert-v1.0', fields[0])
+                image_path = os.path.join('/data/medical/external/xray/CheXpert/CheXpert-v1.0', fields[0])
                 flg_enhance = False
                 for index, value in enumerate(fields[5:]):
                     if index == 5 or index == 8:

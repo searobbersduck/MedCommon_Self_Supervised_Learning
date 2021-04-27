@@ -23,7 +23,7 @@ triton_client = httpclient.InferenceServerClient(url=url, verbose=verbose)
 # img = np.random.rand(1,3,512,512)
 # img = np.array(img, dtype=np.float32)
 
-infile = '/home/zhangwd/data/CheXpert-v1.0/CheXpert-v1.0-small/valid/patient64609/study1/view1_frontal.jpg'
+infile = '/data/medical/external/xray/CheXpert/CheXpert-v1.0/CheXpert-v1.0-small/valid/patient64609/study1/view1_frontal.jpg'
 
 class_names = ['Cardiomegaly', 'Edema', 'Consolidation', 'Atelectasis', 'Pleural_Effusion']
 
