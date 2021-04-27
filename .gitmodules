@@ -7,3 +7,9 @@
 [submodule "external_lib/moco"]
 	path = external_lib/moco
 	url = https://github.com/facebookresearch/moco.git
+[submodule "external_lib/torchio"]
+	path = external_lib/torchio
+	url = https://github.com/searobbersduck/torchio.git
+[submodule "external_lib/Chexpert"]
+	path = external_lib/Chexpert
+	url = https://github.com/searobbersduck/Chexpert.git

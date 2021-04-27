@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main_moco.py -a resnet18 --lr 0.01 --batch-size 256 --dist-url 'tcp://localhost:10002' --multiprocessing-distributed --world-size 1 --rank 0 /home/zhangwd/data/CheXpert-v1.0/CheXpert-v1.0-small

@@ -12,6 +12,10 @@ import numpy as np
 
 from torch.utils.data import Dataset, DataLoader
 
+import sys
+root = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+sys.path.append(os.path.join(root, 'external_lib/torchio'))
+
 import torchio as tio
 
 
@@ -64,6 +68,22 @@ class CardiacDS(CommonDS):
         pids = os.listdir(root)
         self.image_files = [os.path.join(root, pid, 'cropped_cta.nii.gz') for pid in pids]
         super().__init__(self.image_files, image_shape, transforms)
+
+# class CardiacBFDS(CommonDS):
+#     def __init__(self, root, image_shape=[128,128,128], pattern='',transforms=None):
+#         pass
+
+#     @staticmethod
+    
+        
+
+
+class CardiacVessel(CommonDS):
+    def __init__(self, root, image_shape=[128,128,128], transforms=None):
+        suids = os.listdir(root)
+        self.image_files = [os.path.join(root, suid, 'im.nii.gz') for suid in suids]
+        super().__init__(self.image_files, image_shape, transforms)
+        
 
 
 def test_CardiacDS():

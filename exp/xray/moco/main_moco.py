@@ -20,23 +20,20 @@ import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
+import torchvision.models as models
 
 import sys
-root = os.path.join(os.path.abspath(os.path.dirname(__file__)), os.path.pardir, os.path.pardir)
-sys.path.append(root)
-import models.moco.builder as builder
-from datasets.common_ds import CardiacDS, CardiacVessel
-sys.path.append(os.path.join(root, 'external_lib/3D-ResNets-PyTorch/models'))
-from resnet import generate_model
+root = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir, os.path.pardir))
+print(root)
+# sys.path.append(root)
+sys.path.append(os.path.join(root, 'external_lib/moco'))
 
-# import moco.loader
-# import moco.builder
+import moco.loader
+import moco.builder
 
-# model_names = sorted(name for name in models.__dict__
-#     if name.islower() and not name.startswith("__")
-#     and callable(models.__dict__[name]))
-
-model_names = ['resnet18']
+model_names = sorted(name for name in models.__dict__
+    if name.islower() and not name.startswith("__")
+    and callable(models.__dict__[name]))
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 parser.add_argument('data', metavar='DIR',
@@ -110,6 +107,8 @@ parser.add_argument('--cos', action='store_true',
 def main():
     args = parser.parse_args()
 
+    print(args)
+
     if args.seed is not None:
         random.seed(args.seed)
         torch.manual_seed(args.seed)
@@ -130,19 +129,26 @@ def main():
     args.distributed = args.world_size > 1 or args.multiprocessing_distributed
 
     ngpus_per_node = torch.cuda.device_count()
+
+    print(ngpus_per_node)
+
     if args.multiprocessing_distributed:
         # Since we have ngpus_per_node processes per node, the total world_size
         # needs to be adjusted accordingly
         args.world_size = ngpus_per_node * args.world_size
         # Use torch.multiprocessing.spawn to launch distributed processes: the
         # main_worker process function
+        print('mp.spawn(main_worker, nprocs=ngpus_per_node, args=(ngpus_per_node, args))')
+        print(ngpus_per_node)
         mp.spawn(main_worker, nprocs=ngpus_per_node, args=(ngpus_per_node, args))
     else:
         # Simply call main_worker function
+        print('main_worker(args.gpu, ngpus_per_node, args)')
         main_worker(args.gpu, ngpus_per_node, args)
 
 
 def main_worker(gpu, ngpus_per_node, args):
+    print('====> main worker:')
     args.gpu = gpu
 
     # suppress printing if not master
@@ -165,14 +171,9 @@ def main_worker(gpu, ngpus_per_node, args):
                                 world_size=args.world_size, rank=args.rank)
     # create model
     print("=> creating model '{}'".format(args.arch))
-    # model = moco.builder.MoCo(
-    #     models.__dict__[args.arch],
-    #     args.moco_dim, args.moco_k, args.moco_m, args.moco_t, args.mlp)
-
-    # backbone = generate_model(18, n_input_channels=1, widen_factor=0.5)
-    backbone = generate_model
-    model = builder.MoCo(backbone, args.moco_dim, args.moco_k, args.moco_m, args.moco_t, args.mlp)
-
+    model = moco.builder.MoCo(
+        models.__dict__[args.arch],
+        args.moco_dim, args.moco_k, args.moco_m, args.moco_t, args.mlp)
     print(model)
 
     if args.distributed:
@@ -231,45 +232,41 @@ def main_worker(gpu, ngpus_per_node, args):
     cudnn.benchmark = True
 
     # Data loading code
-    # traindir = os.path.join(args.data, 'train')
-    # normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-    #                                  std=[0.229, 0.224, 0.225])
-    # if args.aug_plus:
-    #     # MoCo v2's aug: similar to SimCLR https://arxiv.org/abs/2002.05709
-    #     augmentation = [
-    #         transforms.RandomResizedCrop(224, scale=(0.2, 1.)),
-    #         transforms.RandomApply([
-    #             transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)  # not strengthened
-    #         ], p=0.8),
-    #         transforms.RandomGrayscale(p=0.2),
-    #         transforms.RandomApply([moco.loader.GaussianBlur([.1, 2.])], p=0.5),
-    #         transforms.RandomHorizontalFlip(),
-    #         transforms.ToTensor(),
-    #         normalize
-    #     ]
-    # else:
-    #     # MoCo v1's aug: the same as InstDisc https://arxiv.org/abs/1805.01978
-    #     augmentation = [
-    #         transforms.RandomResizedCrop(224, scale=(0.2, 1.)),
-    #         transforms.RandomGrayscale(p=0.2),
-    #         transforms.ColorJitter(0.4, 0.4, 0.4, 0.4),
-    #         transforms.RandomHorizontalFlip(),
-    #         transforms.ToTensor(),
-    #         normalize
-    #     ]
+    traindir = os.path.join(args.data, 'train')
+    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                                     std=[0.229, 0.224, 0.225])
+    if args.aug_plus:
+        # MoCo v2's aug: similar to SimCLR https://arxiv.org/abs/2002.05709
+        augmentation = [
+            transforms.Resize([512,512]),
+            transforms.RandomResizedCrop(448, scale=(0.2, 1.)),
+            transforms.RandomApply([
+                transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)  # not strengthened
+            ], p=0.8),
+            transforms.RandomGrayscale(p=0.2),
+            transforms.RandomApply([moco.loader.GaussianBlur([.1, 2.])], p=0.5),
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            normalize
+        ]
+    else:
+        # MoCo v1's aug: the same as InstDisc https://arxiv.org/abs/1805.01978
+        augmentation = [
+            transforms.Resize([512,512]),
+            transforms.RandomResizedCrop(448, scale=(0.2, 1.)),
+            transforms.RandomGrayscale(p=0.2),
+            transforms.ColorJitter(0.4, 0.4, 0.4, 0.4),
+            transforms.RandomHorizontalFlip(),
+            transforms.ToTensor(),
+            normalize
+        ]
 
-    # train_dataset = datasets.ImageFolder(
-    #     traindir,
-    #     moco.loader.TwoCropsTransform(transforms.Compose(augmentation)))
 
-    # ds 1
-    # root = '/data/medical/cardiac/cta2mbf/20201216/5.mbf_myocardium'
-    # train_dataset = CardiacDS(root, [224, 224, 128])
-
-    # ds 2
-    root = '/data/medical/cardiac/vessel_all'
-    train_dataset = CardiacVessel(root, [384, 384, 160])
-
+    print('====> start 1')
+    train_dataset = datasets.ImageFolder(
+        traindir,
+        moco.loader.TwoCropsTransform(transforms.Compose(augmentation)))
+    print('====> start 2')
     if args.distributed:
         train_sampler = torch.utils.data.distributed.DistributedSampler(train_dataset)
     else:
@@ -289,8 +286,6 @@ def main_worker(gpu, ngpus_per_node, args):
 
         if not args.multiprocessing_distributed or (args.multiprocessing_distributed
                 and args.rank % ngpus_per_node == 0):
-            if epoch % 10 != 0:
-                continue
             save_checkpoint({
                 'epoch': epoch + 1,
                 'arch': args.arch,
@@ -314,7 +309,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
     model.train()
 
     end = time.time()
-    for i, (images) in enumerate(train_loader):
+    for i, (images, _) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
 
@@ -415,8 +410,9 @@ def accuracy(output, target, topk=(1,)):
         pred = pred.t()
         correct = pred.eq(target.view(1, -1).expand_as(pred))
 
+        correct = correct.contiguous()
         res = []
-        for k in topk:
+        for k in topk:            
             correct_k = correct[:k].view(-1).float().sum(0, keepdim=True)
             res.append(correct_k.mul_(100.0 / batch_size))
         return res

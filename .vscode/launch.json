@@ -32,5 +32,18 @@
                 "--arch", "resnet50"
             ]
         }, 
+        {
+            "name": "moco xray",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "args": [
+            ]
+        }, 
     ]
 }

@@ -12,8 +12,13 @@ git submodule add https://github.com/lucidrains/byol-pytorch.git
 
 # moco 
 git submodule add https://github.com/facebookresearch/moco.git
+
+# torchio
+git submodule add https://github.com/searobbersduck/torchio.git
+
 ```
 
 ## Preparation
 
 
+## Data
