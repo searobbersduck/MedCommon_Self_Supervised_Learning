@@ -12,6 +12,7 @@ __pycache__/
 *.pth.tar
 *log.txt
 checkpoints
+*.pt
 
 # Distribution / packaging
 .Python

@@ -124,7 +124,7 @@ class ImageDataset(Dataset):
         labels = np.array(self._labels[idx]).astype(np.float32)
         image = self.aug(pil_image)
 
-        return (image, labels)
+        return (image, labels, self._image_paths[idx])
 
     @staticmethod
     def aug(infile):

@@ -22,7 +22,7 @@ from jit_model import XrayModel
 
 # export model: 5-classifier
 
-pretrained_file = '../checkpoints/epoch_0_0.8103.pth'
+pretrained_file = '../checkpoints/epoch_0_0.8077.pth'
 num_classes=5
 model = DRModel(num_classes)
 model.load_state_dict(torch.load(pretrained_file, map_location='cpu'))

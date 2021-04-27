@@ -46,4 +46,4 @@ Epoch: [218][1000/1745] Time  0.378 ( 0.421)    Data  0.000 ( 0.024)    Loss 4.3
 
 ## 保存预训练参数
 
-
+通过自监督预训练的结果保存在`./checkpoints/resnet18_xray.pth.tar`

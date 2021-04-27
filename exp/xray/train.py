@@ -61,7 +61,7 @@ def train(data_loader, model, criterion, num_classes, display=10, mode='train'):
     total_prob = [np.array([]) for i in range(num_classes)]
     total_gt = [np.array([]) for i in range(num_classes)]
     total_pred = [np.array([]) for i in range(num_classes)]
-    for index, (images, labels) in tqdm(enumerate(data_loader)):
+    for index, (images, labels, _) in tqdm(enumerate(data_loader)):
         if mode == 'train':
             model.train()
         else:
