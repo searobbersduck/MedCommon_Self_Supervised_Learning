@@ -87,9 +87,14 @@ Pleural_Effusion auc:	0.9043
 
 ## 调用模型
 
-`./notebook/xray_cam.ipynb`
+<font color='red'/>注意：模型在做推理的时候要调用`model.eval()`， 若没有这一项操作，单个数据推到出来的结果和批处理推到出来的结果不一致。</font>
+
+参考：`./notebook/xray_cam.ipynb`，该实例中展示了模型的推导以及相应`CAM`区域的绘制
+
 
 ## 导出模型
+
+<font color='red'/>注意：模型在做导出的时候要调用`model.eval()`， 若没有这一项操作，单个数据推到出来的结果和批处理推到出来的结果不一致。</font>
 
 将模型导出`trt`模型，利用`triton inference server`进行挂载
 
@@ -98,6 +103,9 @@ Pleural_Effusion auc:	0.9043
 将模型放置于triton server 模型仓库: `cp ./trt/xray_classifier.pt $tritonserver/models/xray_classifier/1/model.pt`
 
 ## triton inference server挂载模型
+
+启动`triton inference server`并挂载模型
+
 
 ## 通过triton inference server挂载的模型进行推断
 

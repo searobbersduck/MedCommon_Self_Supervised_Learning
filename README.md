@@ -22,3 +22,8 @@ git submodule add https://github.com/searobbersduck/torchio.git
 
 
 ## Data
+
+
+## Demo
+
+[利用自监督训练X光图片分类并高亮关注区域](./exp/xray/readme.md)
