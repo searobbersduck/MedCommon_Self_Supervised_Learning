@@ -87,7 +87,7 @@ class CardiacVessel(CommonDS):
 
 
 def test_CardiacDS():
-    root = '/fileser/zhangwd/data/cardiac/cta2mbf/20201216/5.mbf_myocardium'
+    root = '/data/medical/cardiac/cta2mbf/20201216/5.mbf_myocardium'
     ds = CardiacDS(root, [64, 64, 64])
     dataloader = DataLoader(ds, batch_size=1, num_workers=1, pin_memory=False, shuffle=True, drop_last=True)
 

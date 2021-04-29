@@ -1,0 +1,487 @@
+/home/zhangwd/code/work/MedCommon_Self_Supervised_Learning
+Cardiomegaly auc:	0.7918		acc:	0.7094
+
+
+Edema auc:	0.8514		acc:	0.8077
+
+
+Consolidation auc:	0.8764		acc:	0.8590
+
+
+Atelectasis auc:	0.8013		acc:	0.6581
+
+
+Pleural_Effusion auc:	0.9074		acc:	0.7137
+
+
+
+====> result:
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64608/study1/view2_lateral.jpg	[0.09412215 0.17501728 0.07651552 0.26437992 0.33556432]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64549/study1/view1_frontal.jpg	[0.1205513  0.19087391 0.06379675 0.24645677 0.2459752 ]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64638/study1/view1_frontal.jpg	[0.091569   0.176406   0.08190294 0.26909703 0.29817677]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64546/study1/view1_frontal.jpg	[0.09895723 0.18739699 0.0834207  0.29825425 0.35876703]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64568/study1/view1_frontal.jpg	[0.09997594 0.18269534 0.07187839 0.2368882  0.26829281]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view2_frontal.jpg	[0.11200853 0.19062784 0.07150445 0.23807178 0.26285821]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64692/study1/view1_frontal.jpg	[0.12141901 0.22871776 0.10282175 0.29814219 0.42705631]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64591/study1/view1_frontal.jpg	[0.0856474  0.15464233 0.06666188 0.24206553 0.24640654]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64606/study1/view1_frontal.jpg	[0.11421449 0.19064082 0.06960464 0.24130486 0.25311041]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64717/study1/view1_frontal.jpg	[0.1252877  0.20321201 0.07126736 0.2482374  0.33073407]	[1. 1. 1. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64556/study1/view1_frontal.jpg	[0.08789891 0.16813706 0.06655841 0.25488803 0.28350443]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64599/study1/view2_lateral.jpg	[0.10310203 0.17595389 0.07067161 0.25095257 0.26852685]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64542/study1/view2_lateral.jpg	[0.10037574 0.17470536 0.06608567 0.24088702 0.25521934]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64627/study1/view1_frontal.jpg	[0.08061612 0.17065287 0.06997395 0.25278413 0.2691434 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64576/study1/view1_frontal.jpg	[0.11852203 0.18313573 0.0654434  0.24071738 0.25057584]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64688/study1/view1_frontal.jpg	[0.09520591 0.2197704  0.09786472 0.26826754 0.38136747]	[0. 1. 1. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64705/study1/view1_frontal.jpg	[0.09129094 0.17547129 0.06644704 0.24661195 0.2614632 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64613/study1/view2_lateral.jpg	[0.10440282 0.18189155 0.06880832 0.2409528  0.28057542]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64542/study1/view1_frontal.jpg	[0.09899163 0.18625395 0.07233766 0.24329254 0.27958354]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64659/study1/view1_frontal.jpg	[0.10111731 0.20873058 0.0901519  0.31165072 0.42266157]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64601/study1/view1_frontal.jpg	[0.09264372 0.18392529 0.07163114 0.24804106 0.27794591]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64667/study1/view1_frontal.jpg	[0.09988778 0.18734053 0.0754949  0.2593261  0.37016505]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64646/study1/view1_frontal.jpg	[0.10528303 0.17305322 0.0716861  0.26673967 0.31532523]	[1. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64628/study1/view1_frontal.jpg	[0.10021634 0.17244034 0.06838056 0.24536943 0.25499493]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64678/study1/view1_frontal.jpg	[0.10884948 0.21090148 0.09331869 0.29196507 0.39124799]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64570/study1/view2_lateral.jpg	[0.12124974 0.21401978 0.08756819 0.24790435 0.30453295]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64714/study1/view1_frontal.jpg	[0.10239669 0.2016037  0.07528712 0.25752917 0.30998972]	[0. 1. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64649/study1/view1_frontal.jpg	[0.09492614 0.1821759  0.07399606 0.2580089  0.35170132]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64683/study1/view1_frontal.jpg	[0.09895487 0.19143583 0.09061041 0.2942687  0.43606505]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64685/study1/view1_frontal.jpg	[0.10424761 0.18600835 0.06784172 0.24064115 0.26345882]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64631/study1/view1_frontal.jpg	[0.10001855 0.16357052 0.07045498 0.25821379 0.28407338]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64623/study1/view1_frontal.jpg	[0.10419078 0.20881733 0.08130375 0.28895953 0.40117332]	[1. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64691/study1/view1_frontal.jpg	[0.10094422 0.20061173 0.08817224 0.28261846 0.36598167]	[1. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64734/study1/view1_frontal.jpg	[0.08764954 0.16854249 0.07528908 0.28376836 0.3194285 ]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64694/study1/view1_frontal.jpg	[0.09236308 0.18586148 0.0747411  0.25887856 0.30407652]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64558/study1/view2_lateral.jpg	[0.09514335 0.1880735  0.07764307 0.24756125 0.28789282]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64657/study1/view1_frontal.jpg	[0.1090024  0.21466213 0.08998702 0.30187768 0.44574058]	[1. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64686/study1/view1_frontal.jpg	[0.10256521 0.17185053 0.07510882 0.2694315  0.34579286]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64619/study1/view1_frontal.jpg	[0.09897314 0.18435012 0.07140865 0.24524565 0.29432672]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64586/study1/view1_frontal.jpg	[0.09291425 0.18462062 0.06898681 0.26116085 0.27896333]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64593/study1/view1_frontal.jpg	[0.09255976 0.15497257 0.06758252 0.24897075 0.23767005]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64680/study1/view1_frontal.jpg	[0.09056816 0.17058565 0.07150435 0.2435021  0.28002307]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64575/study1/view2_lateral.jpg	[0.10106633 0.18021336 0.07058786 0.2358695  0.23446985]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64614/study1/view1_frontal.jpg	[0.1104847  0.19192308 0.06868941 0.26328513 0.30194378]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64709/study1/view1_frontal.jpg	[0.10167497 0.17239143 0.06720608 0.25584239 0.25201514]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64682/study1/view1_frontal.jpg	[0.098152   0.17868844 0.07955879 0.26039454 0.31347787]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64710/study1/view1_frontal.jpg	[0.10187085 0.20141457 0.06824503 0.26147884 0.27847373]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64599/study1/view1_frontal.jpg	[0.09025823 0.17332946 0.06943298 0.24726927 0.28063101]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64624/study1/view1_frontal.jpg	[0.14605196 0.20875823 0.0902233  0.27943182 0.39999053]	[1. 0. 1. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64575/study1/view1_frontal.jpg	[0.09928721 0.18015173 0.06547287 0.23448482 0.25114489]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64620/study1/view1_frontal.jpg	[0.11828602 0.21635501 0.0988281  0.2914966  0.42689317]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64618/study1/view2_lateral.jpg	[0.10487805 0.17418723 0.06616725 0.24296255 0.25434762]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64672/study1/view1_frontal.jpg	[0.13743296 0.22541735 0.0733977  0.25266677 0.32733482]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64550/study1/view1_frontal.jpg	[0.09188358 0.17156    0.06751848 0.24043897 0.25717747]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64596/study1/view1_frontal.jpg	[0.11627886 0.19933201 0.07634223 0.28326529 0.32895598]	[1. 1. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64584/study1/view1_frontal.jpg	[0.09677511 0.16642275 0.06542575 0.24304357 0.25760889]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64716/study1/view1_frontal.jpg	[0.10626198 0.17518488 0.06908813 0.25209361 0.2474087 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64719/study1/view1_frontal.jpg	[0.11813439 0.21614259 0.07117058 0.24764173 0.26389951]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64704/study1/view1_frontal.jpg	[0.10788137 0.20868446 0.0917007  0.29538524 0.44392672]	[0. 0. 1. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64611/study1/view1_frontal.jpg	[0.08805342 0.20330732 0.08122802 0.28414598 0.32636634]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64612/study1/view1_frontal.jpg	[0.09343576 0.18958834 0.07921848 0.27041224 0.31581494]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64703/study1/view1_frontal.jpg	[0.09917757 0.21628521 0.08955671 0.28759745 0.38537207]	[0. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64730/study1/view1_frontal.jpg	[0.10942291 0.18015733 0.07074749 0.24981108 0.27328974]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64594/study1/view2_lateral.jpg	[0.10202044 0.16714592 0.07687296 0.24815181 0.28126198]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64571/study1/view1_frontal.jpg	[0.0977647  0.17809489 0.07566004 0.26995322 0.32661581]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64585/study1/view1_frontal.jpg	[0.11342829 0.20036542 0.09143753 0.28722671 0.34560683]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64698/study1/view1_frontal.jpg	[0.13017075 0.20985901 0.07239449 0.25452998 0.29633355]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64733/study1/view1_frontal.jpg	[0.10137998 0.18254878 0.06719021 0.25091523 0.28389177]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64713/study1/view1_frontal.jpg	[0.10191234 0.18364592 0.07466638 0.26522484 0.30927241]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64589/study1/view1_frontal.jpg	[0.09605227 0.19088313 0.0805484  0.27921638 0.30289274]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64560/study1/view2_lateral.jpg	[0.1075661  0.19168217 0.07611737 0.25510114 0.32315615]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64707/study1/view1_frontal.jpg	[0.08767425 0.17941652 0.07642369 0.25650176 0.32228261]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64681/study1/view1_frontal.jpg	[0.11191604 0.21349414 0.08606417 0.29899272 0.40922222]	[0. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64615/study1/view1_frontal.jpg	[0.11502481 0.19665521 0.07044642 0.24444838 0.2639468 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64653/study1/view1_frontal.jpg	[0.09869144 0.19489314 0.076433   0.24789613 0.28746954]	[0. 0. 1. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64651/study1/view1_frontal.jpg	[0.08847668 0.17712526 0.07140511 0.2579048  0.28082898]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64543/study1/view1_frontal.jpg	[0.11076752 0.20164725 0.08357012 0.26441485 0.37577975]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64648/study1/view1_frontal.jpg	[0.12140772 0.20045951 0.07284509 0.26729983 0.27184218]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64548/study1/view1_frontal.jpg	[0.10103839 0.19188567 0.08973569 0.28852263 0.37521976]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64621/study1/view1_frontal.jpg	[0.09976354 0.17815864 0.06626847 0.25706759 0.26206446]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64557/study1/view1_frontal.jpg	[0.10265511 0.20611601 0.07117935 0.24657275 0.27769312]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64732/study1/view1_frontal.jpg	[0.12420263 0.21411566 0.06979432 0.25476688 0.27013332]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64592/study1/view1_frontal.jpg	[0.11977095 0.19390665 0.06808105 0.26558849 0.33739665]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64560/study1/view1_frontal.jpg	[0.08822736 0.182197   0.06951597 0.24531281 0.27617654]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64567/study1/view1_frontal.jpg	[0.10354152 0.20243667 0.07200582 0.24263386 0.26924631]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64594/study1/view1_frontal.jpg	[0.09571891 0.17055517 0.06917168 0.23877335 0.26239008]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64559/study1/view1_frontal.jpg	[0.09490892 0.17538379 0.06593032 0.24509282 0.26515794]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64677/study1/view1_frontal.jpg	[0.08894257 0.19374226 0.08507843 0.28415847 0.34161094]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64666/study1/view1_frontal.jpg	[0.09163035 0.17941436 0.0687644  0.25753099 0.31881535]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64565/study1/view1_frontal.jpg	[0.1196046  0.18559353 0.06825836 0.2493909  0.26286608]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64603/study1/view1_frontal.jpg	[0.11484262 0.23021482 0.08136218 0.26436964 0.38465059]	[1. 1. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64736/study1/view1_frontal.jpg	[0.10458229 0.19638194 0.06855456 0.24911417 0.258883  ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64715/study1/view1_frontal.jpg	[0.09582606 0.19599923 0.08607752 0.27877361 0.41443774]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64636/study1/view1_frontal.jpg	[0.11585192 0.18348588 0.06752184 0.25819209 0.33529952]	[1. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64583/study1/view1_frontal.jpg	[0.10207606 0.19960566 0.07897555 0.25314111 0.35581696]	[0. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64645/study1/view1_frontal.jpg	[0.09458604 0.17955831 0.0908412  0.29099694 0.39993128]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64738/study1/view1_frontal.jpg	[0.12384542 0.20202406 0.0708131  0.25248623 0.27451771]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64613/study1/view1_frontal.jpg	[0.09398423 0.184357   0.0689836  0.23486534 0.28279313]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64588/study1/view1_frontal.jpg	[0.09004971 0.15454392 0.06735405 0.25357762 0.28449902]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view1_frontal.jpg	[0.09854783 0.18707116 0.06965233 0.2394861  0.2509788 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64679/study1/view1_frontal.jpg	[0.10399788 0.21086682 0.07789861 0.26220089 0.30818924]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64669/study1/view1_frontal.jpg	[0.09225837 0.20801242 0.08754342 0.26794836 0.35872754]	[1. 1. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64552/study1/view1_frontal.jpg	[0.14347726 0.24645881 0.09454533 0.27710241 0.38791955]	[1. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64641/study1/view1_frontal.jpg	[0.11543004 0.20612395 0.08551254 0.28507271 0.35356119]	[1. 0. 1. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64574/study1/view1_frontal.jpg	[0.09317915 0.19106603 0.07012446 0.26722366 0.26392394]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64626/study1/view1_frontal.jpg	[0.11015197 0.19356994 0.06355935 0.24591167 0.24757197]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64728/study1/view1_frontal.jpg	[0.10956071 0.19392242 0.06700286 0.24611551 0.25724086]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64652/study1/view1_frontal.jpg	[0.10120314 0.20347787 0.08339787 0.26010293 0.34530264]	[0. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64632/study1/view1_frontal.jpg	[0.08868011 0.18052113 0.08103429 0.28926525 0.34003711]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64737/study1/view1_frontal.jpg	[0.09758588 0.18384048 0.06988999 0.26679802 0.29765517]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64590/study1/view1_frontal.jpg	[0.10853382 0.19408469 0.07094901 0.25212342 0.29245302]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64570/study1/view1_frontal.jpg	[0.08996876 0.17395084 0.0686584  0.24739598 0.26089442]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64630/study1/view1_frontal.jpg	[0.10397437 0.19837625 0.0862527  0.27952501 0.40628859]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64622/study1/view1_frontal.jpg	[0.12540492 0.22732492 0.07774716 0.26224118 0.35174766]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64701/study1/view1_frontal.jpg	[0.092838   0.18062097 0.07698189 0.27482998 0.31870943]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64697/study1/view1_frontal.jpg	[0.11797339 0.21995695 0.08101305 0.26808518 0.39303216]	[0. 1. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64610/study1/view1_frontal.jpg	[0.1260509  0.20307739 0.07005666 0.25176841 0.29321587]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64564/study1/view1_frontal.jpg	[0.09603497 0.17927112 0.07064199 0.27000529 0.33302224]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64551/study1/view1_frontal.jpg	[0.09786208 0.18705031 0.07093809 0.24072023 0.26048416]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64567/study1/view2_lateral.jpg	[0.09267221 0.16373245 0.06972711 0.24012749 0.25660279]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64663/study1/view1_frontal.jpg	[0.10063028 0.21053699 0.08936562 0.28106722 0.32137042]	[1. 1. 1. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64668/study1/view1_frontal.jpg	[0.09329623 0.20034027 0.08795224 0.29719415 0.38303077]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64676/study1/view1_frontal.jpg	[0.10789241 0.19342618 0.07289362 0.26863837 0.34130293]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64582/study1/view1_frontal.jpg	[0.09112479 0.20465386 0.0807673  0.27876908 0.35563487]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64588/study1/view2_lateral.jpg	[0.10648996 0.18297203 0.07390109 0.25342    0.2688787 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64740/study1/view1_frontal.jpg	[0.09686108 0.18077245 0.07017096 0.25359884 0.32340074]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64625/study1/view1_frontal.jpg	[0.10042984 0.17749572 0.0669817  0.24369682 0.25002119]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64556/study1/view2_lateral.jpg	[0.10663982 0.16776526 0.07150619 0.25223985 0.24765161]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64670/study1/view1_frontal.jpg	[0.09738526 0.18953343 0.08017231 0.27252671 0.37463921]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view2_frontal.jpg	[0.10094517 0.18887532 0.06947181 0.23970051 0.25084963]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64605/study1/view1_frontal.jpg	[0.09744357 0.19212909 0.06923949 0.24353811 0.26569721]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64712/study1/view1_frontal.jpg	[0.11151083 0.18265161 0.06959046 0.25857237 0.27660319]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64693/study1/view1_frontal.jpg	[0.09842834 0.18506062 0.07321516 0.28142518 0.33904329]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64579/study1/view1_frontal.jpg	[0.11698979 0.21076988 0.07459273 0.25473115 0.32349718]	[0. 0. 1. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64689/study1/view1_frontal.jpg	[0.11057224 0.19491985 0.08889011 0.28563687 0.36656624]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64569/study1/view1_frontal.jpg	[0.11835156 0.1872113  0.06982363 0.26050761 0.32112449]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64676/study1/view2_lateral.jpg	[0.1098233  0.20074272 0.07920001 0.25418532 0.3556233 ]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64555/study1/view1_frontal.jpg	[0.10858162 0.20331366 0.07991499 0.25448602 0.32413119]	[0. 1. 1. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64650/study1/view1_frontal.jpg	[0.12477296 0.2293534  0.0929981  0.30356053 0.45703721]	[1. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64654/study1/view1_frontal.jpg	[0.10125557 0.1891579  0.07871858 0.2848787  0.34017113]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64640/study1/view1_frontal.jpg	[0.12201063 0.22678567 0.09175429 0.28904921 0.40515599]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64665/study1/view1_frontal.jpg	[0.09105469 0.20184788 0.08669013 0.28953823 0.35999608]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64554/study1/view1_frontal.jpg	[0.0868823  0.20035961 0.08147583 0.25342676 0.32969853]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64609/study1/view1_frontal.jpg	[0.10454254 0.22289972 0.08359754 0.2634196  0.34919411]	[1. 1. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64580/study1/view1_frontal.jpg	[0.10958096 0.22703424 0.08653185 0.28142479 0.42138126]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view3_lateral.jpg	[0.10467327 0.17498177 0.06481323 0.2391801  0.24877094]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64578/study1/view1_frontal.jpg	[0.10366558 0.19909106 0.0745379  0.27413642 0.33540303]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64639/study1/view1_frontal.jpg	[0.09845585 0.18742198 0.0805549  0.27181783 0.37653649]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64643/study1/view1_frontal.jpg	[0.09679207 0.22035778 0.10642468 0.2837685  0.41527745]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64661/study1/view1_frontal.jpg	[0.12934555 0.22419322 0.07756246 0.26617628 0.30635527]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64702/study1/view1_frontal.jpg	[0.10491618 0.20889135 0.08132462 0.27681777 0.3732582 ]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view1_frontal.jpg	[0.11562408 0.18735881 0.07462931 0.24685571 0.27860713]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64644/study1/view1_frontal.jpg	[0.1201236  0.20051117 0.08272523 0.28425133 0.40383804]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64563/study1/view1_frontal.jpg	[0.08982181 0.177369   0.06829535 0.26106015 0.26518273]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64726/study1/view1_frontal.jpg	[0.09495837 0.18287635 0.06731306 0.25159833 0.26811698]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64727/study1/view1_frontal.jpg	[0.09121639 0.18099129 0.07136075 0.25069454 0.2606715 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64687/study1/view1_frontal.jpg	[0.12209147 0.19949219 0.07332323 0.26704097 0.31086719]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64656/study1/view1_frontal.jpg	[0.1033836  0.22738487 0.09127297 0.27786604 0.4064956 ]	[0. 1. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64684/study1/view1_frontal.jpg	[0.10388445 0.1649902  0.08621086 0.2890698  0.34845939]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64706/study1/view1_frontal.jpg	[0.11001299 0.18485764 0.07821077 0.28071773 0.3197085 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64602/study1/view1_frontal.jpg	[0.09404087 0.17898978 0.0687227  0.25368929 0.31027812]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64595/study1/view2_lateral.jpg	[0.09024818 0.16219446 0.07031322 0.24834608 0.2601676 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64720/study1/view1_frontal.jpg	[0.0976123  0.17842895 0.08234829 0.2884948  0.34278309]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64633/study1/view1_frontal.jpg	[0.11942145 0.2265507  0.08844035 0.29037482 0.42238438]	[1. 1. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64664/study1/view1_frontal.jpg	[0.13505207 0.23439592 0.08465824 0.25654271 0.37124705]	[1. 1. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64562/study1/view1_frontal.jpg	[0.11081967 0.18571733 0.07105923 0.24383469 0.26318851]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64721/study1/view1_frontal.jpg	[0.08186845 0.16323079 0.06669028 0.24748655 0.25259703]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64729/study1/view1_frontal.jpg	[0.13285682 0.21076989 0.07036134 0.2629562  0.30582213]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64634/study1/view1_frontal.jpg	[0.12582599 0.20081744 0.09808808 0.29021007 0.36773625]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64690/study1/view1_frontal.jpg	[0.10531461 0.21477915 0.09105948 0.28251323 0.40345976]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64608/study1/view1_frontal.jpg	[0.09201312 0.17290722 0.07258926 0.26799896 0.34363571]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64642/study1/view1_frontal.jpg	[0.13658726 0.23014773 0.07287456 0.26206493 0.29325685]	[1. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64604/study1/view1_frontal.jpg	[0.09740756 0.20774105 0.08868441 0.28428829 0.3357228 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64699/study1/view1_frontal.jpg	[0.09561535 0.17517863 0.07620025 0.2781837  0.31064567]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64618/study1/view1_frontal.jpg	[0.08509461 0.16104111 0.06109697 0.23887081 0.26520398]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64658/study1/view1_frontal.jpg	[0.09705793 0.18515435 0.07556522 0.26831636 0.32059294]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64708/study1/view1_frontal.jpg	[0.09800821 0.18871333 0.07625636 0.28731737 0.32857242]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64739/study1/view1_frontal.jpg	[0.12706101 0.19264503 0.06826238 0.24533677 0.26402819]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64595/study1/view1_frontal.jpg	[0.09099609 0.16612145 0.06656488 0.24229562 0.25747806]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64660/study1/view1_frontal.jpg	[0.09976828 0.1945056  0.09230639 0.31214082 0.4133763 ]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64647/study1/view1_frontal.jpg	[0.10987756 0.18179539 0.06638024 0.24163978 0.25638816]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64722/study1/view1_frontal.jpg	[0.11138091 0.18634759 0.0783961  0.26740408 0.33389476]	[1. 0. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64640/study1/view2_lateral.jpg	[0.11446547 0.2254944  0.09688173 0.27898276 0.3481065 ]	[0. 1. 1. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64551/study1/view2_lateral.jpg	[0.09197626 0.16704728 0.07345782 0.2480817  0.31204596]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64566/study1/view1_frontal.jpg	[0.08326538 0.16624758 0.06791986 0.24178737 0.26666686]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64700/study1/view1_frontal.jpg	[0.14153469 0.21318613 0.07639319 0.26422587 0.28887305]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64629/study1/view1_frontal.jpg	[0.10447045 0.18751881 0.06536189 0.23413919 0.2297589 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64696/study1/view1_frontal.jpg	[0.09648465 0.17343575 0.07163008 0.26766759 0.2828182 ]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64573/study1/view1_frontal.jpg	[0.11454189 0.20475337 0.08349661 0.30600959 0.37587354]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64671/study1/view1_frontal.jpg	[0.10728873 0.19933406 0.07951815 0.26876801 0.33542314]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64572/study1/view1_frontal.jpg	[0.10150427 0.17501041 0.06312697 0.24030755 0.23746021]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64735/study1/view1_frontal.jpg	[0.09445753 0.19230776 0.07845859 0.26409876 0.33676574]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64600/study1/view2_lateral.jpg	[0.09790176 0.1859099  0.0674094  0.24171141 0.28415582]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64584/study1/view2_lateral.jpg	[0.10965969 0.1717972  0.07175975 0.24223688 0.26939434]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64545/study1/view1_frontal.jpg	[0.10808247 0.24073012 0.09945649 0.30508208 0.40064931]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64615/study1/view2_lateral.jpg	[0.10889204 0.18358704 0.0704191  0.24184772 0.27710715]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64723/study1/view1_frontal.jpg	[0.09424875 0.19874701 0.0736009  0.25183523 0.26841399]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64559/study1/view2_lateral.jpg	[0.1013279  0.17718662 0.06747718 0.24227606 0.25799903]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64711/study1/view1_frontal.jpg	[0.09628682 0.17704663 0.08110462 0.2868675  0.40571025]	[1. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64724/study1/view1_frontal.jpg	[0.0864289  0.17412123 0.07056323 0.23987655 0.25163916]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view3_lateral.jpg	[0.10300788 0.18461046 0.0690495  0.23729892 0.26696816]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64725/study1/view1_frontal.jpg	[0.0944949  0.18232742 0.07409432 0.26865709 0.32038501]	[0. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64597/study1/view2_lateral.jpg	[0.10195003 0.17525139 0.07648306 0.24182597 0.25244731]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64558/study1/view1_frontal.jpg	[0.08623545 0.1639958  0.06893423 0.24269211 0.25732368]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view2_lateral.jpg	[0.12018909 0.16694582 0.07616518 0.2688477  0.27089974]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64675/study1/view1_frontal.jpg	[0.11017565 0.18675201 0.0740006  0.28071427 0.30973658]	[1. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64541/study1/view1_frontal.jpg	[0.11217956 0.19351223 0.07048254 0.26291341 0.27928078]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64544/study1/view1_frontal.jpg	[0.09434392 0.16795997 0.07138342 0.25478315 0.26356715]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64598/study1/view1_frontal.jpg	[0.09973254 0.18184115 0.0707837  0.25988925 0.31910494]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64731/study1/view1_frontal.jpg	[0.09780931 0.18160023 0.0708277  0.24371107 0.26374215]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view3_lateral.jpg	[0.12738979 0.18030931 0.07278214 0.26227769 0.28135124]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64662/study1/view1_frontal.jpg	[0.09495216 0.17372037 0.06763404 0.25080532 0.26511568]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64637/study1/view1_frontal.jpg	[0.09529006 0.18682694 0.07756778 0.27280447 0.30147937]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64566/study1/view2_lateral.jpg	[0.09840225 0.1720944  0.06808371 0.24039151 0.23459688]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64607/study1/view1_frontal.jpg	[0.09984042 0.17573516 0.06844866 0.2465073  0.25941724]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64553/study1/view1_frontal.jpg	[0.09786184 0.17754592 0.06986237 0.2476844  0.25336286]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64673/study1/view1_frontal.jpg	[0.1262935  0.20836276 0.07210233 0.26247996 0.34383067]	[1. 0. 1. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64718/study1/view1_frontal.jpg	[0.11239113 0.19712196 0.08497848 0.29597092 0.37029794]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64625/study1/view2_lateral.jpg	[0.11140533 0.19090043 0.06790564 0.24884403 0.25597507]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64590/study1/view2_lateral.jpg	[0.11262825 0.19104089 0.07636339 0.25489587 0.27930471]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64705/study1/view2_lateral.jpg	[0.11133474 0.18856305 0.07891469 0.25632811 0.28853938]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view1_frontal.jpg	[0.10587706 0.18247956 0.06981286 0.26369414 0.30818433]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64587/study1/view1_frontal.jpg	[0.11095414 0.18845057 0.07430474 0.2551268  0.26937997]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64577/study1/view1_frontal.jpg	[0.09410806 0.18607982 0.07227255 0.26177078 0.36766043]	[0. 0. 0. 0. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64655/study1/view1_frontal.jpg	[0.10390505 0.19029517 0.08328098 0.28500861 0.36978176]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64617/study1/view1_frontal.jpg	[0.12678172 0.19146237 0.06879806 0.25778866 0.24688424]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64561/study1/view1_frontal.jpg	[0.09008647 0.18053457 0.06982434 0.25210664 0.25672188]	[0. 0. 0. 1. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64597/study1/view1_frontal.jpg	[0.08749582 0.17336473 0.07159559 0.24621916 0.26997542]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64635/study1/view1_frontal.jpg	[0.10241108 0.2087851  0.08501086 0.28741953 0.32237053]	[0. 1. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64606/study1/view2_lateral.jpg	[0.1132549  0.19215496 0.07289595 0.2528415  0.28421098]	[1. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64695/study1/view1_frontal.jpg	[0.10292524 0.19265716 0.06341602 0.23857902 0.24476938]	[0. 0. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64674/study1/view1_frontal.jpg	[0.11453498 0.20384669 0.08244269 0.29448321 0.34565383]	[1. 0. 0. 1. 1.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64600/study1/view1_frontal.jpg	[0.09668083 0.18737799 0.06794918 0.240422   0.27054936]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64589/study1/view2_lateral.jpg	[0.11134411 0.19125961 0.07885948 0.26021111 0.31158248]	[0. 1. 0. 0. 0.]
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64608/study1/view2_lateral.jpg	[0.09412215 0.17501728 0.07651552 0.26437992 0.33556432]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64549/study1/view1_frontal.jpg	[0.1205513  0.1908739  0.06379675 0.24645677 0.2459752 ]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64638/study1/view1_frontal.jpg	[0.091569   0.176406   0.08190294 0.26909703 0.29817677]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64546/study1/view1_frontal.jpg	[0.09895723 0.18739699 0.0834207  0.29825425 0.35876703]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64568/study1/view1_frontal.jpg	[0.09997594 0.18269534 0.07187839 0.2368882  0.2682928 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view2_frontal.jpg	[0.11200853 0.19062784 0.07150445 0.23807178 0.2628582 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64692/study1/view1_frontal.jpg	[0.12141901 0.22871776 0.10282175 0.2981422  0.4270563 ]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64591/study1/view1_frontal.jpg	[0.0856474  0.15464233 0.06666188 0.24206553 0.24640654]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64606/study1/view1_frontal.jpg	[0.11421449 0.19064082 0.06960464 0.24130486 0.2531104 ]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64717/study1/view1_frontal.jpg	[0.1252877  0.20321201 0.07126736 0.2482374  0.33073407]	tensor([1., 1., 1., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64556/study1/view1_frontal.jpg	[0.08789891 0.16813706 0.06655841 0.25488803 0.28350443]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64599/study1/view2_lateral.jpg	[0.10310203 0.1759539  0.07067161 0.25095257 0.26852685]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64542/study1/view2_lateral.jpg	[0.10037574 0.17470536 0.06608567 0.24088702 0.25521934]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64627/study1/view1_frontal.jpg	[0.08061612 0.17065287 0.06997395 0.25278413 0.2691434 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64576/study1/view1_frontal.jpg	[0.11852203 0.18313573 0.0654434  0.24071738 0.25057584]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64688/study1/view1_frontal.jpg	[0.09520591 0.2197704  0.09786472 0.26826754 0.38136747]	tensor([0., 1., 1., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64705/study1/view1_frontal.jpg	[0.09129094 0.17547129 0.06644704 0.24661195 0.2614632 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64613/study1/view2_lateral.jpg	[0.10440282 0.18189155 0.06880832 0.2409528  0.28057542]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64542/study1/view1_frontal.jpg	[0.09899163 0.18625395 0.07233766 0.24329254 0.27958354]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64659/study1/view1_frontal.jpg	[0.10111731 0.20873058 0.0901519  0.31165072 0.42266157]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64601/study1/view1_frontal.jpg	[0.09264372 0.18392529 0.07163114 0.24804106 0.2779459 ]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64667/study1/view1_frontal.jpg	[0.09988778 0.18734053 0.0754949  0.2593261  0.37016505]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64646/study1/view1_frontal.jpg	[0.10528303 0.17305322 0.0716861  0.26673967 0.31532523]	tensor([1., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64628/study1/view1_frontal.jpg	[0.10021634 0.17244034 0.06838056 0.24536943 0.25499493]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64678/study1/view1_frontal.jpg	[0.10884948 0.21090148 0.09331869 0.29196507 0.391248  ]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64570/study1/view2_lateral.jpg	[0.12124974 0.21401978 0.08756819 0.24790435 0.30453295]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64714/study1/view1_frontal.jpg	[0.10239669 0.2016037  0.07528712 0.25752917 0.30998972]	tensor([0., 1., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64649/study1/view1_frontal.jpg	[0.09492614 0.1821759  0.07399606 0.2580089  0.35170132]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64683/study1/view1_frontal.jpg	[0.09895487 0.19143583 0.09061041 0.2942687  0.43606505]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64685/study1/view1_frontal.jpg	[0.10424761 0.18600835 0.06784172 0.24064115 0.26345882]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64631/study1/view1_frontal.jpg	[0.10001855 0.16357052 0.07045498 0.2582138  0.28407338]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64623/study1/view1_frontal.jpg	[0.10419078 0.20881733 0.08130375 0.28895953 0.40117332]	tensor([1., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64691/study1/view1_frontal.jpg	[0.10094422 0.20061173 0.08817224 0.28261846 0.36598167]	tensor([1., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64734/study1/view1_frontal.jpg	[0.08764954 0.16854249 0.07528908 0.28376836 0.3194285 ]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64694/study1/view1_frontal.jpg	[0.09236308 0.18586148 0.0747411  0.25887856 0.30407652]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64558/study1/view2_lateral.jpg	[0.09514335 0.1880735  0.07764307 0.24756125 0.28789282]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64657/study1/view1_frontal.jpg	[0.1090024  0.21466213 0.08998702 0.30187768 0.44574058]	tensor([1., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64686/study1/view1_frontal.jpg	[0.10256521 0.17185053 0.07510882 0.2694315  0.34579286]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64619/study1/view1_frontal.jpg	[0.09897314 0.18435012 0.07140865 0.24524565 0.29432672]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64586/study1/view1_frontal.jpg	[0.09291425 0.18462062 0.06898681 0.26116085 0.27896333]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64593/study1/view1_frontal.jpg	[0.09255976 0.15497257 0.06758252 0.24897075 0.23767005]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64680/study1/view1_frontal.jpg	[0.09056816 0.17058565 0.07150435 0.2435021  0.28002307]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64575/study1/view2_lateral.jpg	[0.10106633 0.18021336 0.07058786 0.2358695  0.23446985]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64614/study1/view1_frontal.jpg	[0.1104847  0.19192308 0.06868941 0.26328513 0.30194378]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64709/study1/view1_frontal.jpg	[0.10167497 0.17239143 0.06720608 0.2558424  0.25201514]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64682/study1/view1_frontal.jpg	[0.098152   0.17868844 0.07955879 0.26039454 0.31347787]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64710/study1/view1_frontal.jpg	[0.10187085 0.20141457 0.06824503 0.26147884 0.27847373]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64599/study1/view1_frontal.jpg	[0.09025823 0.17332946 0.06943298 0.24726927 0.280631  ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64624/study1/view1_frontal.jpg	[0.14605196 0.20875823 0.0902233  0.27943182 0.39999053]	tensor([1., 0., 1., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64575/study1/view1_frontal.jpg	[0.09928721 0.18015173 0.06547287 0.23448482 0.2511449 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64620/study1/view1_frontal.jpg	[0.11828602 0.21635501 0.0988281  0.2914966  0.42689317]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64618/study1/view2_lateral.jpg	[0.10487805 0.17418723 0.06616725 0.24296255 0.25434762]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64672/study1/view1_frontal.jpg	[0.13743296 0.22541735 0.0733977  0.25266677 0.32733482]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64550/study1/view1_frontal.jpg	[0.09188358 0.17156    0.06751848 0.24043897 0.25717747]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64596/study1/view1_frontal.jpg	[0.11627886 0.19933201 0.07634223 0.2832653  0.32895598]	tensor([1., 1., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64584/study1/view1_frontal.jpg	[0.09677511 0.16642275 0.06542575 0.24304357 0.2576089 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64716/study1/view1_frontal.jpg	[0.10626198 0.17518488 0.06908813 0.2520936  0.2474087 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64719/study1/view1_frontal.jpg	[0.11813439 0.2161426  0.07117058 0.24764173 0.2638995 ]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64704/study1/view1_frontal.jpg	[0.10788137 0.20868446 0.0917007  0.29538524 0.44392672]	tensor([0., 0., 1., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64611/study1/view1_frontal.jpg	[0.08805342 0.20330732 0.08122802 0.28414598 0.32636634]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64612/study1/view1_frontal.jpg	[0.09343576 0.18958834 0.07921848 0.27041224 0.31581494]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64703/study1/view1_frontal.jpg	[0.09917757 0.21628521 0.08955671 0.28759745 0.38537207]	tensor([0., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64730/study1/view1_frontal.jpg	[0.10942291 0.18015733 0.07074749 0.24981108 0.27328974]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64594/study1/view2_lateral.jpg	[0.10202044 0.16714592 0.07687296 0.24815181 0.28126198]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64571/study1/view1_frontal.jpg	[0.0977647  0.1780949  0.07566004 0.26995322 0.3266158 ]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64585/study1/view1_frontal.jpg	[0.11342829 0.20036542 0.09143753 0.2872267  0.34560683]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64698/study1/view1_frontal.jpg	[0.13017075 0.20985901 0.07239449 0.25452998 0.29633355]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64733/study1/view1_frontal.jpg	[0.10137998 0.18254878 0.06719021 0.25091523 0.28389177]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64713/study1/view1_frontal.jpg	[0.10191234 0.18364592 0.07466638 0.26522484 0.3092724 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64589/study1/view1_frontal.jpg	[0.09605227 0.19088313 0.0805484  0.27921638 0.30289274]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64560/study1/view2_lateral.jpg	[0.1075661  0.19168217 0.07611737 0.25510114 0.32315615]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64707/study1/view1_frontal.jpg	[0.08767425 0.17941652 0.07642369 0.25650176 0.3222826 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64681/study1/view1_frontal.jpg	[0.11191604 0.21349414 0.08606417 0.29899272 0.40922222]	tensor([0., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64615/study1/view1_frontal.jpg	[0.11502481 0.19665521 0.07044642 0.24444838 0.2639468 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64653/study1/view1_frontal.jpg	[0.09869144 0.19489314 0.076433   0.24789613 0.28746954]	tensor([0., 0., 1., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64651/study1/view1_frontal.jpg	[0.08847668 0.17712526 0.07140511 0.2579048  0.28082898]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64543/study1/view1_frontal.jpg	[0.11076752 0.20164725 0.08357012 0.26441485 0.37577975]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64648/study1/view1_frontal.jpg	[0.12140772 0.20045951 0.07284509 0.26729983 0.27184218]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64548/study1/view1_frontal.jpg	[0.10103839 0.19188567 0.08973569 0.28852263 0.37521976]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64621/study1/view1_frontal.jpg	[0.09976354 0.17815864 0.06626847 0.2570676  0.26206446]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64557/study1/view1_frontal.jpg	[0.10265511 0.206116   0.07117935 0.24657275 0.27769312]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64732/study1/view1_frontal.jpg	[0.12420263 0.21411566 0.06979432 0.25476688 0.27013332]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64592/study1/view1_frontal.jpg	[0.11977095 0.19390665 0.06808105 0.2655885  0.33739665]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64560/study1/view1_frontal.jpg	[0.08822736 0.182197   0.06951597 0.24531281 0.27617654]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64567/study1/view1_frontal.jpg	[0.10354152 0.20243667 0.07200582 0.24263386 0.2692463 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64594/study1/view1_frontal.jpg	[0.09571891 0.17055517 0.06917168 0.23877335 0.26239008]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64559/study1/view1_frontal.jpg	[0.09490892 0.17538379 0.06593032 0.24509282 0.26515794]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64677/study1/view1_frontal.jpg	[0.08894257 0.19374226 0.08507843 0.28415847 0.34161094]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64666/study1/view1_frontal.jpg	[0.09163035 0.17941436 0.0687644  0.257531   0.31881535]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64565/study1/view1_frontal.jpg	[0.1196046  0.18559353 0.06825836 0.2493909  0.26286608]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64603/study1/view1_frontal.jpg	[0.11484262 0.23021482 0.08136218 0.26436964 0.3846506 ]	tensor([1., 1., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64736/study1/view1_frontal.jpg	[0.10458229 0.19638194 0.06855456 0.24911417 0.258883  ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64715/study1/view1_frontal.jpg	[0.09582606 0.19599923 0.08607752 0.2787736  0.41443774]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64636/study1/view1_frontal.jpg	[0.11585192 0.18348588 0.06752184 0.2581921  0.33529952]	tensor([1., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64583/study1/view1_frontal.jpg	[0.10207606 0.19960566 0.07897555 0.2531411  0.35581696]	tensor([0., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64645/study1/view1_frontal.jpg	[0.09458604 0.1795583  0.0908412  0.29099694 0.39993128]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64738/study1/view1_frontal.jpg	[0.12384542 0.20202406 0.0708131  0.25248623 0.27451771]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64613/study1/view1_frontal.jpg	[0.09398423 0.184357   0.0689836  0.23486534 0.28279313]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64588/study1/view1_frontal.jpg	[0.09004971 0.15454392 0.06735405 0.25357762 0.28449902]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view1_frontal.jpg	[0.09854783 0.18707116 0.06965233 0.2394861  0.2509788 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64679/study1/view1_frontal.jpg	[0.10399788 0.21086682 0.07789861 0.2622009  0.30818924]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64669/study1/view1_frontal.jpg	[0.09225837 0.20801242 0.08754342 0.26794836 0.35872754]	tensor([1., 1., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64552/study1/view1_frontal.jpg	[0.14347726 0.24645881 0.09454533 0.2771024  0.38791955]	tensor([1., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64641/study1/view1_frontal.jpg	[0.11543004 0.20612395 0.08551254 0.2850727  0.3535612 ]	tensor([1., 0., 1., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64574/study1/view1_frontal.jpg	[0.09317915 0.19106603 0.07012446 0.26722366 0.26392394]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64626/study1/view1_frontal.jpg	[0.11015197 0.19356994 0.06355935 0.24591167 0.24757197]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64728/study1/view1_frontal.jpg	[0.10956071 0.19392242 0.06700286 0.2461155  0.25724086]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64652/study1/view1_frontal.jpg	[0.10120314 0.20347787 0.08339787 0.26010293 0.34530264]	tensor([0., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64632/study1/view1_frontal.jpg	[0.08868011 0.18052113 0.08103429 0.28926525 0.3400371 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64737/study1/view1_frontal.jpg	[0.09758588 0.18384048 0.06988999 0.26679802 0.29765517]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64590/study1/view1_frontal.jpg	[0.10853382 0.19408469 0.07094901 0.25212342 0.29245302]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64570/study1/view1_frontal.jpg	[0.08996876 0.17395084 0.0686584  0.24739598 0.26089442]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64630/study1/view1_frontal.jpg	[0.10397437 0.19837625 0.0862527  0.279525   0.4062886 ]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64622/study1/view1_frontal.jpg	[0.12540492 0.22732492 0.07774716 0.26224118 0.35174766]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64701/study1/view1_frontal.jpg	[0.092838   0.18062097 0.07698189 0.27482998 0.31870943]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64697/study1/view1_frontal.jpg	[0.11797339 0.21995695 0.08101305 0.26808518 0.39303216]	tensor([0., 1., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64610/study1/view1_frontal.jpg	[0.1260509  0.20307739 0.07005666 0.2517684  0.29321587]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64564/study1/view1_frontal.jpg	[0.09603497 0.17927112 0.07064199 0.2700053  0.33302224]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64551/study1/view1_frontal.jpg	[0.09786208 0.18705031 0.07093809 0.24072023 0.26048416]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64567/study1/view2_lateral.jpg	[0.09267221 0.16373245 0.06972711 0.24012749 0.2566028 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64663/study1/view1_frontal.jpg	[0.10063028 0.21053699 0.08936562 0.28106722 0.32137042]	tensor([1., 1., 1., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64668/study1/view1_frontal.jpg	[0.09329623 0.20034027 0.08795224 0.29719415 0.38303077]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64676/study1/view1_frontal.jpg	[0.10789241 0.19342618 0.07289362 0.26863837 0.34130293]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64582/study1/view1_frontal.jpg	[0.09112479 0.20465386 0.0807673  0.27876908 0.35563487]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64588/study1/view2_lateral.jpg	[0.10648996 0.18297203 0.07390109 0.25342    0.2688787 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64740/study1/view1_frontal.jpg	[0.09686108 0.18077245 0.07017096 0.25359884 0.32340074]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64625/study1/view1_frontal.jpg	[0.10042984 0.17749572 0.0669817  0.24369682 0.2500212 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64556/study1/view2_lateral.jpg	[0.10663982 0.16776526 0.07150619 0.25223985 0.2476516 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64670/study1/view1_frontal.jpg	[0.09738526 0.18953343 0.08017231 0.2725267  0.3746392 ]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view2_frontal.jpg	[0.10094517 0.18887532 0.06947181 0.23970051 0.25084963]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64605/study1/view1_frontal.jpg	[0.09744357 0.19212909 0.06923949 0.24353811 0.2656972 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64712/study1/view1_frontal.jpg	[0.11151083 0.18265161 0.06959046 0.25857237 0.2766032 ]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64693/study1/view1_frontal.jpg	[0.09842834 0.18506062 0.07321516 0.28142518 0.3390433 ]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64579/study1/view1_frontal.jpg	[0.11698979 0.21076988 0.07459273 0.25473115 0.32349718]	tensor([0., 0., 1., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64689/study1/view1_frontal.jpg	[0.11057224 0.19491985 0.08889011 0.28563687 0.36656624]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64569/study1/view1_frontal.jpg	[0.11835156 0.1872113  0.06982363 0.2605076  0.3211245 ]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64676/study1/view2_lateral.jpg	[0.1098233  0.20074272 0.07920001 0.25418532 0.3556233 ]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64555/study1/view1_frontal.jpg	[0.10858162 0.20331366 0.07991499 0.25448602 0.3241312 ]	tensor([0., 1., 1., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64650/study1/view1_frontal.jpg	[0.12477296 0.2293534  0.0929981  0.30356053 0.4570372 ]	tensor([1., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64654/study1/view1_frontal.jpg	[0.10125557 0.1891579  0.07871858 0.2848787  0.34017113]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64640/study1/view1_frontal.jpg	[0.12201063 0.22678567 0.09175429 0.2890492  0.405156  ]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64665/study1/view1_frontal.jpg	[0.09105469 0.20184788 0.08669013 0.28953823 0.35999608]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64554/study1/view1_frontal.jpg	[0.0868823  0.20035961 0.08147583 0.25342676 0.32969853]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64609/study1/view1_frontal.jpg	[0.10454254 0.22289972 0.08359754 0.2634196  0.3491941 ]	tensor([1., 1., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64580/study1/view1_frontal.jpg	[0.10958096 0.22703424 0.08653185 0.2814248  0.42138126]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view3_lateral.jpg	[0.10467327 0.17498177 0.06481323 0.2391801  0.24877094]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64578/study1/view1_frontal.jpg	[0.10366558 0.19909106 0.0745379  0.27413642 0.33540303]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64639/study1/view1_frontal.jpg	[0.09845585 0.18742198 0.0805549  0.27181783 0.3765365 ]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64643/study1/view1_frontal.jpg	[0.09679207 0.22035778 0.10642468 0.2837685  0.41527745]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64661/study1/view1_frontal.jpg	[0.12934555 0.22419322 0.07756246 0.26617628 0.30635527]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64702/study1/view1_frontal.jpg	[0.10491618 0.20889135 0.08132462 0.27681777 0.3732582 ]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64581/study1/view1_frontal.jpg	[0.11562408 0.18735881 0.07462931 0.2468557  0.27860713]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64644/study1/view1_frontal.jpg	[0.1201236  0.20051117 0.08272523 0.28425133 0.40383804]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64563/study1/view1_frontal.jpg	[0.08982181 0.177369   0.06829535 0.26106015 0.26518273]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64726/study1/view1_frontal.jpg	[0.09495837 0.18287635 0.06731306 0.25159833 0.26811698]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64727/study1/view1_frontal.jpg	[0.09121639 0.18099129 0.07136075 0.25069454 0.2606715 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64687/study1/view1_frontal.jpg	[0.12209147 0.19949219 0.07332323 0.26704097 0.3108672 ]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64656/study1/view1_frontal.jpg	[0.1033836  0.22738487 0.09127297 0.27786604 0.4064956 ]	tensor([0., 1., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64684/study1/view1_frontal.jpg	[0.10388445 0.1649902  0.08621086 0.2890698  0.3484594 ]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64706/study1/view1_frontal.jpg	[0.11001299 0.18485764 0.07821077 0.28071773 0.3197085 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64602/study1/view1_frontal.jpg	[0.09404087 0.17898978 0.0687227  0.2536893  0.31027812]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64595/study1/view2_lateral.jpg	[0.09024818 0.16219446 0.07031322 0.24834608 0.2601676 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64720/study1/view1_frontal.jpg	[0.0976123  0.17842895 0.08234829 0.2884948  0.3427831 ]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64633/study1/view1_frontal.jpg	[0.11942145 0.2265507  0.08844035 0.29037482 0.42238438]	tensor([1., 1., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64664/study1/view1_frontal.jpg	[0.13505207 0.23439592 0.08465824 0.2565427  0.37124705]	tensor([1., 1., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64562/study1/view1_frontal.jpg	[0.11081967 0.18571733 0.07105923 0.24383469 0.2631885 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64721/study1/view1_frontal.jpg	[0.08186845 0.16323079 0.06669028 0.24748655 0.25259703]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64729/study1/view1_frontal.jpg	[0.13285682 0.21076989 0.07036134 0.2629562  0.30582213]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64634/study1/view1_frontal.jpg	[0.12582599 0.20081744 0.09808808 0.29021007 0.36773625]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64690/study1/view1_frontal.jpg	[0.10531461 0.21477915 0.09105948 0.28251323 0.40345976]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64608/study1/view1_frontal.jpg	[0.09201312 0.17290722 0.07258926 0.26799896 0.3436357 ]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64642/study1/view1_frontal.jpg	[0.13658726 0.23014773 0.07287456 0.26206493 0.29325685]	tensor([1., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64604/study1/view1_frontal.jpg	[0.09740756 0.20774105 0.08868441 0.2842883  0.3357228 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64699/study1/view1_frontal.jpg	[0.09561535 0.17517863 0.07620025 0.2781837  0.31064567]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64618/study1/view1_frontal.jpg	[0.08509461 0.16104111 0.06109697 0.23887081 0.26520398]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64658/study1/view1_frontal.jpg	[0.09705793 0.18515435 0.07556522 0.26831636 0.32059294]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64708/study1/view1_frontal.jpg	[0.09800821 0.18871333 0.07625636 0.28731737 0.32857242]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64739/study1/view1_frontal.jpg	[0.12706101 0.19264503 0.06826238 0.24533677 0.2640282 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64595/study1/view1_frontal.jpg	[0.09099609 0.16612145 0.06656488 0.24229562 0.25747806]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64660/study1/view1_frontal.jpg	[0.09976828 0.1945056  0.09230639 0.31214082 0.4133763 ]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64647/study1/view1_frontal.jpg	[0.10987756 0.18179539 0.06638024 0.24163978 0.25638816]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64722/study1/view1_frontal.jpg	[0.11138091 0.18634759 0.0783961  0.26740408 0.33389476]	tensor([1., 0., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64640/study1/view2_lateral.jpg	[0.11446547 0.2254944  0.09688173 0.27898276 0.3481065 ]	tensor([0., 1., 1., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64551/study1/view2_lateral.jpg	[0.09197626 0.16704728 0.07345782 0.2480817  0.31204596]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64566/study1/view1_frontal.jpg	[0.08326538 0.16624758 0.06791986 0.24178737 0.26666686]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64700/study1/view1_frontal.jpg	[0.14153469 0.21318613 0.07639319 0.26422587 0.28887305]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64629/study1/view1_frontal.jpg	[0.10447045 0.1875188  0.06536189 0.23413919 0.2297589 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64696/study1/view1_frontal.jpg	[0.09648465 0.17343575 0.07163008 0.2676676  0.2828182 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64573/study1/view1_frontal.jpg	[0.11454189 0.20475337 0.08349661 0.3060096  0.37587354]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64671/study1/view1_frontal.jpg	[0.10728873 0.19933406 0.07951815 0.268768   0.33542314]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64572/study1/view1_frontal.jpg	[0.10150427 0.17501041 0.06312697 0.24030755 0.23746021]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64735/study1/view1_frontal.jpg	[0.09445753 0.19230776 0.07845859 0.26409876 0.33676574]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64600/study1/view2_lateral.jpg	[0.09790176 0.1859099  0.0674094  0.24171141 0.28415582]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64584/study1/view2_lateral.jpg	[0.10965969 0.1717972  0.07175975 0.24223688 0.26939434]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64545/study1/view1_frontal.jpg	[0.10808247 0.24073012 0.09945649 0.30508208 0.4006493 ]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64615/study1/view2_lateral.jpg	[0.10889204 0.18358704 0.0704191  0.24184772 0.27710715]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64723/study1/view1_frontal.jpg	[0.09424875 0.19874701 0.0736009  0.25183523 0.268414  ]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64559/study1/view2_lateral.jpg	[0.1013279  0.17718662 0.06747718 0.24227606 0.25799903]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64711/study1/view1_frontal.jpg	[0.09628682 0.17704663 0.08110462 0.2868675  0.40571025]	tensor([1., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64724/study1/view1_frontal.jpg	[0.0864289  0.17412123 0.07056323 0.23987655 0.25163916]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64547/study1/view3_lateral.jpg	[0.10300788 0.18461046 0.0690495  0.23729892 0.26696816]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64725/study1/view1_frontal.jpg	[0.0944949  0.18232742 0.07409432 0.2686571  0.320385  ]	tensor([0., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64597/study1/view2_lateral.jpg	[0.10195003 0.1752514  0.07648306 0.24182597 0.2524473 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64558/study1/view1_frontal.jpg	[0.08623545 0.1639958  0.06893423 0.24269211 0.25732368]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view2_lateral.jpg	[0.12018909 0.16694582 0.07616518 0.2688477  0.27089974]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64675/study1/view1_frontal.jpg	[0.11017565 0.186752   0.0740006  0.28071427 0.30973658]	tensor([1., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64541/study1/view1_frontal.jpg	[0.11217956 0.19351223 0.07048254 0.2629134  0.27928078]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64544/study1/view1_frontal.jpg	[0.09434392 0.16795997 0.07138342 0.25478315 0.26356715]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64598/study1/view1_frontal.jpg	[0.09973254 0.18184115 0.0707837  0.25988925 0.31910494]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64731/study1/view1_frontal.jpg	[0.09780931 0.18160023 0.0708277  0.24371107 0.26374215]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view3_lateral.jpg	[0.12738979 0.18030931 0.07278214 0.2622777  0.28135124]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64662/study1/view1_frontal.jpg	[0.09495216 0.17372037 0.06763404 0.25080532 0.26511568]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64637/study1/view1_frontal.jpg	[0.09529006 0.18682694 0.07756778 0.27280447 0.30147937]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64566/study1/view2_lateral.jpg	[0.09840225 0.1720944  0.06808371 0.24039151 0.23459688]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64607/study1/view1_frontal.jpg	[0.09984042 0.17573516 0.06844866 0.2465073  0.25941724]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64553/study1/view1_frontal.jpg	[0.09786184 0.17754592 0.06986237 0.2476844  0.25336286]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64673/study1/view1_frontal.jpg	[0.1262935  0.20836276 0.07210233 0.26247996 0.34383067]	tensor([1., 0., 1., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64718/study1/view1_frontal.jpg	[0.11239113 0.19712196 0.08497848 0.29597092 0.37029794]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64625/study1/view2_lateral.jpg	[0.11140533 0.19090043 0.06790564 0.24884403 0.25597507]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64590/study1/view2_lateral.jpg	[0.11262825 0.19104089 0.07636339 0.25489587 0.2793047 ]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64705/study1/view2_lateral.jpg	[0.11133474 0.18856305 0.07891469 0.2563281  0.28853938]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64616/study1/view1_frontal.jpg	[0.10587706 0.18247956 0.06981286 0.26369414 0.30818433]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64587/study1/view1_frontal.jpg	[0.11095414 0.18845057 0.07430474 0.2551268  0.26937997]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64577/study1/view1_frontal.jpg	[0.09410806 0.18607982 0.07227255 0.26177078 0.36766043]	tensor([0., 0., 0., 0., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64655/study1/view1_frontal.jpg	[0.10390505 0.19029517 0.08328098 0.2850086  0.36978176]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64617/study1/view1_frontal.jpg	[0.12678172 0.19146237 0.06879806 0.25778866 0.24688424]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64561/study1/view1_frontal.jpg	[0.09008647 0.18053457 0.06982434 0.25210664 0.25672188]	tensor([0., 0., 0., 1., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64597/study1/view1_frontal.jpg	[0.08749582 0.17336473 0.07159559 0.24621916 0.26997542]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64635/study1/view1_frontal.jpg	[0.10241108 0.2087851  0.08501086 0.28741953 0.32237053]	tensor([0., 1., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64606/study1/view2_lateral.jpg	[0.1132549  0.19215496 0.07289595 0.2528415  0.28421098]	tensor([1., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64695/study1/view1_frontal.jpg	[0.10292524 0.19265716 0.06341602 0.23857902 0.24476938]	tensor([0., 0., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64674/study1/view1_frontal.jpg	[0.11453498 0.2038467  0.08244269 0.2944832  0.34565383]	tensor([1., 0., 0., 1., 1.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64600/study1/view1_frontal.jpg	[0.09668083 0.18737799 0.06794918 0.240422   0.27054936]	tensor([0., 1., 0., 0., 0.])
+/data/medical/external/xray/CheXpert/CheXpert-v1.0-small/valid/patient64589/study1/view2_lateral.jpg	[0.11134411 0.19125961 0.07885948 0.2602111  0.31158248]	tensor([0., 1., 0., 0., 0.])
+hello world
