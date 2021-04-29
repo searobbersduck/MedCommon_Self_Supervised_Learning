@@ -20,9 +20,10 @@ git submodule add https://github.com/searobbersduck/torchio.git
 
 ## Preparation
 
-
-## Data
-
+```
+conda create --name pytorch1.8 --file requirements.txt
+conda activate pytorch1.8
+```
 
 ## Demo
 
