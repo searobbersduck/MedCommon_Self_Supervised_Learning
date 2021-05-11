@@ -1,2 +1,1 @@
-CUDA_VISIBLE_DEVICES=6,7 python main_moco.py -a resnet18 --lr 0.03 --batch-size 2 --dist-url 'tcp://localh
-ost:10002' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 512  --epochs 10000 /data/medical/external/xray/CheXpert/CheXpert-v1.0
+CUDA_VISIBLE_DEVICES=6,7 python main_moco.py -a resnet18 --lr 0.03 --batch-size 2 --dist-url 'tcp://localhost:10002' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 512  --epochs 10000 /data/medical/external/xray/CheXpert/CheXpert-v1.0

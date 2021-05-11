@@ -1,6 +1,3 @@
-[submodule "external_lib/3D-ResNets-PyTorch"]
-	path = external_lib/3D-ResNets-PyTorch
-	url = https://github.com/kenshohara/3D-ResNets-PyTorch.git
 [submodule "external_lib/byol-pytorch"]
 	path = external_lib/byol-pytorch
 	url = https://github.com/lucidrains/byol-pytorch.git
@@ -13,3 +10,9 @@
 [submodule "external_lib/Chexpert"]
 	path = external_lib/Chexpert
 	url = https://github.com/searobbersduck/Chexpert.git
+[submodule "external_lib/ResNets3D"]
+	path = external_lib/ResNets3D
+	url = https://github.com/kenshohara/3D-ResNets-PyTorch.git
+[submodule "external_lib/MedCommon"]
+	path = external_lib/MedCommon
+	url = https://github.com/searobbersduck/MedCommon.git
