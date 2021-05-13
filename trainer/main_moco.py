@@ -26,7 +26,7 @@ root = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), 
 sys.path.append(root)
 # print(root)
 import models.moco.builder as builder
-from datasets.common_ds import CardiacDS, CardiacVessel
+from datasets.common_ds import CardiacDS, CardiacVessel, LungGGO
 sys.path.append(root)
 # sys.path.append(os.path.join(root, 'external_lib/ResNets3D/models'))
 # sys.path.append(os.path.join(root, 'external_lib/ResNets3D'))
@@ -34,6 +34,9 @@ import external_lib.ResNets3D.models as models3D
 import external_lib.ResNets3D.models.resnet
 import external_lib.ResNets3D.models.densenet
 # from resnet import generate_model
+
+import warnings
+warnings.filterwarnings('ignore')
 
 model_names = sorted(name for name in models3D.__dict__
     if name.islower() and not name.startswith("__"))
@@ -105,6 +108,8 @@ parser.add_argument('--aug-plus', action='store_true',
 parser.add_argument('--cos', action='store_true',
                     help='use cosine lr schedule')
 
+# options for datasets
+parser.add_argument('--ds', default='LungGGO')
 
 def main():
     args = parser.parse_args()
@@ -268,14 +273,18 @@ def main_worker(gpu, ngpus_per_node, args):
     #     traindir,
     #     moco.loader.TwoCropsTransform(transforms.Compose(augmentation)))
 
-    # ds 1
-    # root = '/data/medical/cardiac/cta2mbf/20201216/5.mbf_myocardium'
-    # train_dataset = CardiacDS(root, [224, 224, 128])
-
-    # ds 2
-    root = '/data/medical/cardiac/vessel_all'
-    # train_dataset = CardiacVessel(root, [384, 384, 160])
-    train_dataset = CardiacVessel(root, [448, 448, 256])
+    if args.ds == 'CardiacDS':
+        # ds 1
+        root = '/data/medical/cardiac/cta2mbf/20201216/5.mbf_myocardium'
+        train_dataset = CardiacDS(root, [224, 224, 128])
+    elif args.ds == 'CardiacVessel':
+        # ds 2
+        root = '/data/medical/cardiac/vessel_all'
+        train_dataset = CardiacVessel(root, [448, 448, 256])
+    elif args.ds == 'LungGGO':
+        # ds 3 
+        root = '/data/medical/hospital/cz/ggo/cz/raw/pos/images'
+        train_dataset = LungGGO(root, [320, 320, 256])
 
     if args.distributed:
         train_sampler = torch.utils.data.distributed.DistributedSampler(train_dataset)
@@ -298,12 +307,14 @@ def main_worker(gpu, ngpus_per_node, args):
                 and args.rank % ngpus_per_node == 0):
             if epoch % 10 != 0:
                 continue
+            save_dir = '{}'.format(args.ds)
+            os.makedirs(save_dir, exist_ok=True)
             save_checkpoint({
                 'epoch': epoch + 1,
                 'arch': args.arch,
                 'state_dict': model.state_dict(),
                 'optimizer' : optimizer.state_dict(),
-            }, is_best=False, filename='checkpoint_{:04d}.pth.tar'.format(epoch))
+            }, is_best=False, filename=os.path.join(save_dir, 'checkpoint_{:04d}.pth.tar'.format(epoch)))
 
 
 def train(train_loader, model, criterion, optimizer, epoch, args):

@@ -20,6 +20,8 @@ sys.path.append(os.path.join(root, 'external_lib/torchio'))
 import torchio as tio
 from external_lib.MedCommon.utils.data_io_utils import DataIO
 
+import warnings
+warnings.filterwarnings('ignore')
 
 class CommonDS(Dataset):
     def __init__(self, image_files, image_shape=[128,128,128], transforms=None):
@@ -91,6 +93,12 @@ class Cerebrovascular(CommonDS):
         self.image_files = [os.path.join(root, suid) for suid in suids]
         super().__init__(self.image_files, image_shape, transforms)
 
+class LungGGO(CommonDS):
+    def __init__(self, root, image_shape=[128,128,128], transforms=None):
+        suids = os.listdir(root)
+        self.image_files = [os.path.join(root, suid) for suid in suids]
+        super().__init__(self.image_files, image_shape, transforms)
+
 
 def test_CardiacDS():
     root = '/data/medical/cardiac/cta2mbf/20201216/5.mbf_myocardium'
@@ -109,6 +117,19 @@ def test_Cerebrovascular():
         print(image_one.shape)
     print('test_Cerebrovascular')
 
+
+def test_LungGGO():
+    root = '/data/medical/hospital/cz/ggo/cz/raw/pos/images'
+    ds = LungGGO(root, [64, 64, 64])
+    dataloader = DataLoader(ds, batch_size=1, num_workers=1, pin_memory=False, shuffle=True, drop_last=True)
+
+    for index, (image_one, image_two, _) in enumerate(dataloader):
+        print(image_one.shape)
+    print('test_LungGGO')
+
+
+
 if __name__ == '__main__':
     # test_CardiacDS()
-    test_Cerebrovascular()
+    # test_Cerebrovascular()
+    test_LungGGO()
