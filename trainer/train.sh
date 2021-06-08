@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=2,3,4,5 python main_moco.py -a resnet18 --lr 0.03 --batch-size 4 --dist-url 'tcp://localhost:10003' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 40  --epochs 10000 /data/medical/brain/cerebral_parenchyma/exp/cta_256/images --ds DetectionBrain
+CUDA_VISIBLE_DEVICES=2,3,4,5 python main_moco.py -a resnet18 --lr 0.03 --batch-size 4 --dist-url 'tcp://localhost:10004' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 512  --epochs 10000 /data/medical/cardiac/seg/coronary/coronary_ori_256/images --ds DetectionCoronary

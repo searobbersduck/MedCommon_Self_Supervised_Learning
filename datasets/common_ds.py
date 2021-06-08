@@ -85,7 +85,13 @@ class CardiacVessel(CommonDS):
         suids = os.listdir(root)
         self.image_files = [os.path.join(root, suid, 'im.nii.gz') for suid in suids]
         super().__init__(self.image_files, image_shape, transforms)
-        
+
+class ResizedSegmentationDS(CommonDS):
+    def __init__(self, root, image_shape=[128,128,128], transforms=None):
+        self.image_files = glob(os.path.join(root, '*.nii.gz'))
+        super().__init__(self.image_files, image_shape, transforms)
+
+
 
 class Cerebrovascular(CommonDS):
     def __init__(self, root, image_shape=[128,128,128], transforms=None):

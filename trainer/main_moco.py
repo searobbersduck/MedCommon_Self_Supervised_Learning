@@ -26,7 +26,7 @@ root = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), 
 sys.path.append(root)
 # print(root)
 import models.moco.builder as builder
-from datasets.common_ds import CardiacDS, CardiacVessel, LungGGO
+from datasets.common_ds import CardiacDS, CardiacVessel, LungGGO, ResizedSegmentationDS
 sys.path.append(root)
 # sys.path.append(os.path.join(root, 'external_lib/ResNets3D/models'))
 # sys.path.append(os.path.join(root, 'external_lib/ResNets3D'))
@@ -285,6 +285,10 @@ def main_worker(gpu, ngpus_per_node, args):
         # ds 3 
         root = '/data/medical/hospital/cz/ggo/cz/raw/pos/images'
         train_dataset = LungGGO(root, [320, 320, 256])
+    elif args.ds == 'DetectionCoronary' or args.ds == 'DetectionBrain':
+        root = args.data
+        train_dataset = ResizedSegmentationDS(root, [256, 256, 256])
+
 
     if args.distributed:
         train_sampler = torch.utils.data.distributed.DistributedSampler(train_dataset)
