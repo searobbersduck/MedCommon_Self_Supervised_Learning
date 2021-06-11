@@ -288,6 +288,9 @@ def main_worker(gpu, ngpus_per_node, args):
     elif args.ds == 'DetectionCoronary' or args.ds == 'DetectionBrain':
         root = args.data
         train_dataset = ResizedSegmentationDS(root, [256, 256, 256])
+    else:
+        root = args.data
+        train_dataset = ResizedSegmentationDS(root, [448, 448, 128])
 
 
     if args.distributed:
@@ -309,7 +312,7 @@ def main_worker(gpu, ngpus_per_node, args):
 
         if not args.multiprocessing_distributed or (args.multiprocessing_distributed
                 and args.rank % ngpus_per_node == 0):
-            if epoch % 10 != 0:
+            if epoch % args.print_freq != 0:
                 continue
             save_dir = '{}'.format(args.ds)
             os.makedirs(save_dir, exist_ok=True)
