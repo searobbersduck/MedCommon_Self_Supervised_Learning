@@ -110,6 +110,7 @@ parser.add_argument('--cos', action='store_true',
 
 # options for datasets
 parser.add_argument('--ds', default='LungGGO')
+parser.add_argument('--crop_size', nargs='+', type=int, default=[256,256,256])
 
 def main():
     args = parser.parse_args()
@@ -290,7 +291,7 @@ def main_worker(gpu, ngpus_per_node, args):
         train_dataset = ResizedSegmentationDS(root, [256, 256, 256])
     else:
         root = args.data
-        train_dataset = ResizedSegmentationDS(root, [448, 448, 128])
+        train_dataset = ResizedSegmentationDS(root, args.crop_size)
 
 
     if args.distributed:
