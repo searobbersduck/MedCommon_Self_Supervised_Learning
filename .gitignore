@@ -14,7 +14,8 @@ __pycache__/
 checkpoints
 *.pt
 
-!trainer/MBF/mbf_ssl.pth.tar
+!trainer/MBF
+!trainer/DetectionCoronary
 
 # Distribution / packaging
 .Python
