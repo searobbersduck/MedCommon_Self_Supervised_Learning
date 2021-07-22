@@ -1,6 +1,6 @@
 
-[toc]
-
+<br><br>
+---
 ## 训练MBF模型
 
 ```
@@ -26,6 +26,9 @@ cropped_ori$ tree -L 1
 trainer/MBF/mbf_ssl.pth.tar
 ```
 
+
+<br><br>
+---
 ## 训练冠脉或心脏模型
 
 ```
@@ -56,3 +59,32 @@ CUDA_VISIBLE_DEVICES=2,3,4,5 python main_moco.py -a resnet18 --lr 0.03 --batch-s
 ```
 trainer/DetectionCoronary/checkpoint_9990.pth.tar
 ```
+
+<br><br>
+----
+
+## 训练XRay模型
+
+```
+CUDA_VISIBLE_DEVICES=6,7 python main_moco.py -a resnet10 --lr 0.03 --batch-size 2 --dist-url 'tcp://localhost:10002' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 512  --epochs 10000 /data/medical/external/xray/CheXpert/CheXpert-v1.0
+```
+
+模型路径：
+```
+exp/xray/moco/checkpoints/resnet18_xray.pth.tar
+```
+
+
+
+# 使用示例
+
+1. [load 实例](https://github.com/searobbersduck/MedCommon/blob/main/utils/ssl_utils.py)
+2. [利用训练好的自监督模型做特征提取](https://github.com/searobbersduck/MedCommon/blob/main/gan/models/pix2pix_3d_model.py)
+    ```
+    if opt.ssl_sr:
+        if self.opt.ssl_arch is not None and self.opt.ssl_pretrained_file is not None:
+            self.features_extractor = SSL_Utils.load_ssl_model(self.opt.ssl_arch, self.opt.ssl_pretrained_file)
+            self.features_extractor = torch.nn.Sequential(*list(self.features_extractor.children())[:1])
+            self.features_extractor.to(self.device)
+            self.loss_names.append('SR')
+    ```

@@ -16,6 +16,7 @@ checkpoints
 
 !trainer/MBF
 !trainer/DetectionCoronary
+!exp/xray/moco/checkpoints/resnet18_xray.pth.tar
 
 # Distribution / packaging
 .Python
