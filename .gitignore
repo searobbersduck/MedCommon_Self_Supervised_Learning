@@ -16,6 +16,7 @@ checkpoints
 
 !trainer/MBF
 !trainer/DetectionCoronary
+!trainer/DetectionCoronary/coronal_ssl_256.pth.tar
 !exp/xray/moco/checkpoints/resnet18_xray.pth.tar
 
 # Distribution / packaging
