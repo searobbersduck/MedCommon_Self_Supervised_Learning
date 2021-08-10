@@ -35,6 +35,12 @@ trainer/MBF/mbf_ssl.pth.tar
 CUDA_VISIBLE_DEVICES=2,3,4,5 python main_moco.py -a resnet18 --lr 0.03 --batch-size 4 --dist-url 'tcp://localhost:10004' --multiprocessing-distributed --world-size 1 --rank 0 --moco-k 512  --epochs 10000 /data/medical/cardiac/seg/coronary/coronary_ori_256/images --ds DetectionCoronary --resume /home/zhangwd/code/work/MedCommon_Self_Supervised_Learning/trainer/DetectionCoronary/checkpoint_9990.pth.tar
 ```
 
+```
+elif args.ds == 'DetectionCoronary' or args.ds == 'DetectionBrain':
+    root = args.data
+    train_dataset = ResizedSegmentationDS(root, [256, 256, 256])
+```
+
 数据为冠脉心脏数据，resize到256大小，数据格式：
 ```
 /data/medical/cardiac/seg/coronary$ tree -L 1
@@ -59,6 +65,13 @@ CUDA_VISIBLE_DEVICES=2,3,4,5 python main_moco.py -a resnet18 --lr 0.03 --batch-s
 ```
 trainer/DetectionCoronary/checkpoint_9990.pth.tar
 ```
+
+
+<br><br>
+---
+
+## 训练
+
 
 <br><br>
 ----
