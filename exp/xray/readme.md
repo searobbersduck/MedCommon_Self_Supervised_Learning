@@ -36,7 +36,7 @@ Pleural_Effusion auc:	0.9192
 
 ## 利用自监督预训练模型参数
 
-具体请参见:[自监督预训练模型参数]('./moco/readme.md')
+具体请参见:[自监督预训练模型参数](./moco/readme.md)
 
 ## 微调模型
 
